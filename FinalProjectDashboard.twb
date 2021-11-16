@@ -1,0 +1,1265 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='combined_csv_v22' inline='true' name='federated.1cezlq40z720k71f0aprn11ly2rm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='combined_csv_v22' name='textscan.0coleoj0ww7wws13pi37v19ov767'>
+            <connection class='textscan' directory='C:/Users/Sbals/Downloads' filename='combined_csv_v22.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0coleoj0ww7wws13pi37v19ov767' name='combined_csv_v22.csv' table='[combined_csv_v22#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+            <column datatype='real' name='is_delay' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Quarter' ordinal='2' />
+            <column datatype='integer' name='Month' ordinal='3' />
+            <column datatype='integer' name='DayofMonth' ordinal='4' />
+            <column datatype='integer' name='DayOfWeek' ordinal='5' />
+            <column datatype='string' name='Reporting_Airline' ordinal='6' />
+            <column datatype='string' name='Origin' ordinal='7' />
+            <column datatype='string' name='Dest' ordinal='8' />
+            <column datatype='real' name='Distance' ordinal='9' />
+            <column datatype='integer' name='DepHourofDay' ordinal='10' />
+            <column datatype='boolean' name='is_holiday' ordinal='11' />
+            <column datatype='integer' name='AWND_O' ordinal='12' />
+            <column datatype='integer' name='PRCP_O' ordinal='13' />
+            <column datatype='real' name='TAVG_O' ordinal='14' />
+            <column datatype='integer' name='AWND_D' ordinal='15' />
+            <column datatype='integer' name='PRCP_D' ordinal='16' />
+            <column datatype='real' name='TAVG_D' ordinal='17' />
+            <column datatype='real' name='SNOW_O' ordinal='18' />
+            <column datatype='real' name='SNOW_D' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0coleoj0ww7wws13pi37v19ov767' name='combined_csv_v22.csv' table='[combined_csv_v22#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+            <column datatype='real' name='is_delay' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Quarter' ordinal='2' />
+            <column datatype='integer' name='Month' ordinal='3' />
+            <column datatype='integer' name='DayofMonth' ordinal='4' />
+            <column datatype='integer' name='DayOfWeek' ordinal='5' />
+            <column datatype='string' name='Reporting_Airline' ordinal='6' />
+            <column datatype='string' name='Origin' ordinal='7' />
+            <column datatype='string' name='Dest' ordinal='8' />
+            <column datatype='real' name='Distance' ordinal='9' />
+            <column datatype='integer' name='DepHourofDay' ordinal='10' />
+            <column datatype='boolean' name='is_holiday' ordinal='11' />
+            <column datatype='integer' name='AWND_O' ordinal='12' />
+            <column datatype='integer' name='PRCP_O' ordinal='13' />
+            <column datatype='real' name='TAVG_O' ordinal='14' />
+            <column datatype='integer' name='AWND_D' ordinal='15' />
+            <column datatype='integer' name='PRCP_D' ordinal='16' />
+            <column datatype='real' name='TAVG_D' ordinal='17' />
+            <column datatype='real' name='SNOW_O' ordinal='18' />
+            <column datatype='real' name='SNOW_D' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_delay</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[is_delay]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>is_delay</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quarter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quarter]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Quarter</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayofMonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DayofMonth]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>DayofMonth</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfWeek</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DayOfWeek]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>DayOfWeek</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporting_Airline</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reporting_Airline]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Reporting_Airline</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Origin]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Origin</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dest</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dest]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Dest</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Distance]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>Distance</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DepHourofDay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DepHourofDay]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>DepHourofDay</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_holiday</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[is_holiday]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>is_holiday</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWND_O</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AWND_O]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>AWND_O</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRCP_O</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRCP_O]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>PRCP_O</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAVG_O</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAVG_O]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>TAVG_O</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWND_D</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AWND_D]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>AWND_D</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRCP_D</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRCP_D]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>PRCP_D</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAVG_D</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAVG_D]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>TAVG_D</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNOW_O</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SNOW_O]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>SNOW_O</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNOW_D</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SNOW_D]</local-name>
+            <parent-name>[combined_csv_v22.csv]</parent-name>
+            <remote-alias>SNOW_D</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Awnd D' datatype='integer' name='[AWND_D]' role='measure' type='quantitative' />
+      <column caption='Awnd O' datatype='integer' name='[AWND_O]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Awnd D (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[AWND_D]' peg='0' size='7.1' />
+      </column>
+      <column caption='Awnd O (bin)' datatype='integer' name='[Awnd O (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-1' formula='[AWND_O]' peg='0' size='7.1' />
+      </column>
+      <column caption='Day Of Week' datatype='integer' name='[DayOfWeek]' role='dimension' type='quantitative' />
+      <column caption='Dayof Month' datatype='integer' name='[DayofMonth]' role='dimension' type='quantitative' />
+      <column caption='Dep Hourof Day' datatype='integer' name='[DepHourofDay]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Is Delay (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[is_delay]' peg='0' size='0.303' />
+      </column>
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Prcp D' datatype='integer' name='[PRCP_D]' role='measure' type='quantitative' />
+      <column caption='Prcp O' datatype='integer' name='[PRCP_O]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Quarter]' role='dimension' type='quantitative' />
+      <column caption='Reporting Airline' datatype='string' name='[Reporting_Airline]' role='dimension' type='nominal' />
+      <column caption='Snow D' datatype='real' name='[SNOW_D]' role='measure' type='quantitative' />
+      <column caption='Snow O' datatype='real' name='[SNOW_O]' role='measure' type='quantitative' />
+      <column caption='Tavg D' datatype='real' name='[TAVG_D]' role='measure' type='quantitative' />
+      <column caption='Tavg O' datatype='real' name='[TAVG_O]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='combined_csv_v22.csv' datatype='table' name='[__tableau_internal_object_id__].[combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD]' role='measure' type='quantitative' />
+      <column caption='Is Delay' datatype='real' name='[is_delay]' role='measure' type='quantitative' />
+      <column caption='Is Holiday' datatype='boolean' name='[is_holiday]' role='dimension' type='nominal' />
+      <column-instance column='[AWND_D]' derivation='Sum' name='[sum:AWND_D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AWND_O]' derivation='Sum' name='[sum:AWND_O:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PRCP_D]' derivation='Sum' name='[sum:PRCP_D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PRCP_O]' derivation='Sum' name='[sum:PRCP_O:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TAVG_D]' derivation='Sum' name='[sum:TAVG_D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TAVG_O]' derivation='Sum' name='[sum:TAVG_O:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[is_delay]' derivation='Sum' name='[sum:is_delay:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:AWND_D:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_O:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_O:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_D:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_D:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:AWND_O:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='combined_csv_v22.csv' id='combined_csv_v22.csv_E6C8D411871E4D97A83A700433263FDD'>
+            <properties context=''>
+              <relation connection='textscan.0coleoj0ww7wws13pi37v19ov767' name='combined_csv_v22.csv' table='[combined_csv_v22#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                  <column datatype='real' name='is_delay' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='integer' name='Quarter' ordinal='2' />
+                  <column datatype='integer' name='Month' ordinal='3' />
+                  <column datatype='integer' name='DayofMonth' ordinal='4' />
+                  <column datatype='integer' name='DayOfWeek' ordinal='5' />
+                  <column datatype='string' name='Reporting_Airline' ordinal='6' />
+                  <column datatype='string' name='Origin' ordinal='7' />
+                  <column datatype='string' name='Dest' ordinal='8' />
+                  <column datatype='real' name='Distance' ordinal='9' />
+                  <column datatype='integer' name='DepHourofDay' ordinal='10' />
+                  <column datatype='boolean' name='is_holiday' ordinal='11' />
+                  <column datatype='integer' name='AWND_O' ordinal='12' />
+                  <column datatype='integer' name='PRCP_O' ordinal='13' />
+                  <column datatype='real' name='TAVG_O' ordinal='14' />
+                  <column datatype='integer' name='AWND_D' ordinal='15' />
+                  <column datatype='integer' name='PRCP_D' ordinal='16' />
+                  <column datatype='real' name='TAVG_D' ordinal='17' />
+                  <column datatype='real' name='SNOW_O' ordinal='18' />
+                  <column datatype='real' name='SNOW_D' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Snow Precipitation and Depth</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_csv_v22' name='federated.1cezlq40z720k71f0aprn11ly2rm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cezlq40z720k71f0aprn11ly2rm'>
+            <column caption='Snow D' datatype='real' name='[SNOW_D]' role='measure' type='quantitative' />
+            <column caption='Snow O' datatype='real' name='[SNOW_O]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column caption='Is Delay' datatype='real' name='[is_delay]' role='measure' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SNOW_D]' derivation='Sum' name='[sum:SNOW_D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SNOW_O]' derivation='Sum' name='[sum:SNOW_O:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[is_delay]' derivation='Sum' name='[sum:is_delay:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:SNOW_D:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:SNOW_O:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1cezlq40z720k71f0aprn11ly2rm].[sum:SNOW_D:qk] + [federated.1cezlq40z720k71f0aprn11ly2rm].[sum:SNOW_O:qk])</rows>
+        <cols>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{FF170459-FF8A-46ED-8DA4-A90AFF47B54C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Average Temperature</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_csv_v22' name='federated.1cezlq40z720k71f0aprn11ly2rm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cezlq40z720k71f0aprn11ly2rm'>
+            <column caption='Tavg D' datatype='real' name='[TAVG_D]' role='measure' type='quantitative' />
+            <column caption='Tavg O' datatype='real' name='[TAVG_O]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column caption='Is Delay' datatype='real' name='[is_delay]' role='measure' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TAVG_D]' derivation='Sum' name='[sum:TAVG_D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TAVG_O]' derivation='Sum' name='[sum:TAVG_O:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[is_delay]' derivation='Sum' name='[sum:is_delay:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_O:qk]' field-type='quantitative' fold='true' range-type='uniform' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_D:qk]' scope='rows' value='Tavg' />
+            <format attr='title' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_O:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_D:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[:Measure Names]' />
+              <size column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_O:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_D:qk] + [federated.1cezlq40z720k71f0aprn11ly2rm].[sum:TAVG_O:qk])</rows>
+        <cols>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{12347F53-19B8-4AA8-81B4-47FDA83286C4}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Wind</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_csv_v22' name='federated.1cezlq40z720k71f0aprn11ly2rm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cezlq40z720k71f0aprn11ly2rm'>
+            <column caption='Awnd D' datatype='integer' name='[AWND_D]' role='measure' type='quantitative' />
+            <column caption='Awnd O' datatype='integer' name='[AWND_O]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Awnd D (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[AWND_D]' peg='0' size='7.1' />
+            </column>
+            <column caption='Awnd O (bin)' datatype='integer' name='[Awnd O (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-1' formula='[AWND_O]' peg='0' size='7.1' />
+            </column>
+            <column caption='Is Delay' datatype='real' name='[is_delay]' role='measure' type='quantitative' />
+            <column-instance column='[Awnd D (bin)]' derivation='None' name='[none:Awnd D (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Awnd O (bin)]' derivation='None' name='[none:Awnd O (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[is_delay]' derivation='Sum' name='[sum:is_delay:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' scope='rows' value='Delay' />
+            <format attr='title' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd O (bin):qk]' scope='cols' value='Awnd O' />
+            <format attr='title' class='0' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd D (bin):qk]' scope='cols' value='Awnd D' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd O (bin):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd D (bin):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]</rows>
+        <cols>([federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd O (bin):qk] + [federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd D (bin):qk])</cols>
+        <show-full-range>
+          <column>[federated.1cezlq40z720k71f0aprn11ly2rm].[Awnd D (bin)]</column>
+          <column>[federated.1cezlq40z720k71f0aprn11ly2rm].[Awnd O (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{901804D8-7CCE-498C-8626-C7DD146199B9}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Rainfall</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_csv_v22' name='federated.1cezlq40z720k71f0aprn11ly2rm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cezlq40z720k71f0aprn11ly2rm'>
+            <column caption='Prcp D' datatype='integer' name='[PRCP_D]' role='measure' type='quantitative' />
+            <column caption='Prcp O' datatype='integer' name='[PRCP_O]' role='measure' type='quantitative' />
+            <column caption='Reporting Airline' datatype='string' name='[Reporting_Airline]' role='dimension' type='nominal' />
+            <column caption='Is Delay' datatype='real' name='[is_delay]' role='measure' type='quantitative' />
+            <column caption='Is Holiday' datatype='boolean' name='[is_holiday]' role='dimension' type='nominal' />
+            <column-instance column='[Reporting_Airline]' derivation='None' name='[none:Reporting_Airline:nk]' pivot='key' type='nominal' />
+            <column-instance column='[is_holiday]' derivation='None' name='[none:is_holiday:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PRCP_D]' derivation='Sum' name='[sum:PRCP_D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PRCP_O]' derivation='Sum' name='[sum:PRCP_O:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[is_delay]' derivation='Sum' name='[sum:is_delay:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]' />
+              <lod column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_D:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]' />
+              <lod column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_O:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]' />
+              <lod column='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_D:qk] + [federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_O:qk])</rows>
+        <cols>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Reporting_Airline:nk]</cols>
+      </table>
+      <simple-id uuid='{FA74E634-ECA8-4F24-866D-773A2E9651E2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='19' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='17' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='42875' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='56125'>
+                <zone h='42875' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='56125'>
+                  <zone h='42875' id='8' name='Sheet 4' w='98400' x='800' y='56125'>
+                    <layout-cache minheight='296' type-h='scalable' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='30625' id='7' param='vert' type-v2='layout-flow' w='49200' x='50000' y='25500'>
+                <zone h='30625' id='15' name='Sheet 3' w='49200' x='50000' y='25500'>
+                  <layout-cache minheight='203' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='24500' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='24500' id='16' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <layout-cache minheight='303' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='30625' id='11' param='vert' type-v2='layout-flow' w='49200' x='800' y='25500'>
+                <zone h='30625' id='12' name='Sheet 2' w='49200' x='800' y='25500'>
+                  <layout-cache minheight='203' minwidth='248' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='188' h='24500' id='16' is-fixed='true' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <layout-cache minheight='303' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='237' h='30625' id='12' is-fixed='true' name='Sheet 2' w='49200' x='800' y='25500'>
+                  <layout-cache minheight='203' minwidth='248' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='237' h='30625' id='15' is-fixed='true' name='Sheet 3' w='49200' x='50000' y='25500'>
+                  <layout-cache minheight='203' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42875' id='8' is-fixed='true' name='Sheet 4' w='98400' x='800' y='56125'>
+                  <layout-cache minheight='296' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{56921137-B6B0-4690-BC56-4DBBEC84F747}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0AC67B48-2D4A-46D9-969A-B129E90B6E8E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0FF375CD-183E-4435-B96C-E8E99844DE81}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1cezlq40z720k71f0aprn11ly2rm].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[:Measure Names]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:DepHourofDay:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CBB3CF7B-341A-42CC-97E9-7E23F3BB704F}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Awnd O (bin):ok]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{56DF4B6F-1123-47BB-BB99-D08549C64ACC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:DayofMonth:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Dest:nk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Month:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Origin:nk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Reporting_Airline:nk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:Year:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[none:is_holiday:nk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:PRCP_D:qk]</field>
+            <field>[federated.1cezlq40z720k71f0aprn11ly2rm].[sum:is_delay:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{70BDAEB1-8B05-4ABC-B532-F020834A09A7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      W+f/AykLh+uMN00yAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
